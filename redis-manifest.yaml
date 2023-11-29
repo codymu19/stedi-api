@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: redis-stedi-cody
+  name: redis-stedi-cod
 spec:
   selector:
     matchLabels:
