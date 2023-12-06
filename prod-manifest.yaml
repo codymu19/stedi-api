@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prod-stedi-cody
-          image: gcr.io/cubs-consulting/stedi # This image needs to refer to the NEW Artifact registry repositorry
+          image: us-docker.pkg.dev/cit262-teamproject/cody-api/stedi-api:latest # This image needs to refer to the NEW Artifact registry repositorry
           env:
             - name: REDIS_PASSWORD
               valueFrom:
